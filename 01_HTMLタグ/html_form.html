@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.co.jp/"method ="post">
+        <h2>フォーム1</h2>
+        <label for="username">ユーザー名</label>
+        <!--id="username"があることで、label(ユーザー名)をクリックするとこの入力欄にフォーカスされます。-->
+        <!--フォームを送信すると、username=taro のようなデータになります。-->
+        <!--placeholderの属性で入力ヒントを表示できる-->
+        <input type="text" name="username" id="username" placeholder="ユーザー名">
+        <br>
+        <label for="email">メールアドレス</label>
+        
+
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="inquiry">メッセージ本文</label>
+        <textarea name="inquiry" id="inquiry" cols="10" rows="100"></textarea>
+        <br>
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>
