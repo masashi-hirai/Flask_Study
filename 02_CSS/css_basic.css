@@ -1,13 +1,34 @@
 h3{
     color: red;
 }
-div{
+
+/*クラスは「.」*/
+.group-1{
     background-color: lightgray ;
     border: black;
     border-width: 1px;
     border-style: solid;
 }
+/*クラスは「.」*/
+.group-2{
+    background-color: lightgreen ;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
 
-span{
+/*クラスは「.」*/
+.text-brue{
     color: blue;
+}
+
+/*クラスは「.」*/
+.text-red{
+    color: red;
+}
+
+/*IDは#*/
+#line-1{
+    color: red;
+    text-decoration: underline;
 }
