@@ -1,0 +1,13 @@
+h3{
+    color: red;
+}
+div{
+    background-color: lightgray ;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+span{
+    color: blue;
+}
